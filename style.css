@@ -25,6 +25,9 @@ h2 {
   background-color: azure;
   color: black;
 }
+.btn {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* id's */
 #c2 {
