@@ -19,7 +19,20 @@ function displayGif() {
   for(var i = 0; i < gifArray.length; i++){
     var image = $('<img>');
     image.attr('src', gifArray[i].images.fixed_height.url);
-    $('.container').append(image);
+    $('.gif').append(image);
   }
 });
 }
+
+$(".gif").on("click", function() {
+  // The attr jQuery method allows us to get or set the value of any attribute on our HTML element
+  var state = $(this).attr("data-state");
+  
+  if (state === "still") {
+    $(this).attr("src", $(this).attr("data-animate"));
+    $(this).attr("data-state", "animate");
+  } else {
+    $(this).attr("src", $(this).attr("data-still"));
+    $(this).attr("data-state", "still");
+  }
+});

@@ -1,0 +1,22 @@
+/* fonts */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+/* main elements */
+body {
+  background-color: black;
+  color: azure
+}
+
+/* text elements */
+h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* divs */
+.jumbotron {
+  margin: 0 auto;
+  background-color: aliceblue;
+  color: black;
+}
