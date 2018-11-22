@@ -13,10 +13,24 @@ h1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
 
 /* divs */
 .jumbotron {
   margin: 0 auto;
-  background-color: aliceblue;
+  margin-top: 20px;
+  background-color: azure;
   color: black;
+}
+
+/* id's */
+#c2 {
+  margin-top: 5px;
+  background-color: azure;
+  color: black;
+  border-radius: 5px;
+  padding: 15px;
 }
